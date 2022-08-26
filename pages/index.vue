@@ -1,7 +1,5 @@
 <template>
-<div>
-  hej hej, välkommen till online biblioteket pensionärjävel
-</div>
+  <Tutorial/>
 </template>
 
 <script>
