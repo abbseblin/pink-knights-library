@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    hej och välkommen
   </div>
 </template>
 
