@@ -1,6 +1,6 @@
 <template>
   <div>
-    hej och välkommen
+    hej och välkommen till mig
   </div>
 </template>
 
@@ -13,3 +13,4 @@ export default {};
     background-color: rgb(245, 219, 88);
   }
 </style>
+
