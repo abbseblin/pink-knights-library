@@ -5,8 +5,8 @@
     <h3 class="text-2xl font-medium text-blue-500">LOGO</h3>
   </div>
   <div class="hidden space-x-8 lg:flex text-white-500">
-    <a href="">Home</a>
-    <a href="">About Us</a>
+    <a href="/">Home</a>
+    <a href="/about-us.vue">About Us</a>
     <a href="">Blogs</a>
     <a href="">Our Team</a>
     <a href="">Contact Us</a>
