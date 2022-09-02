@@ -1,7 +1,7 @@
 <template>
     <div class="om-oss">
 
-    <h1>Information</h1>
+    <h1>Information station</h1>
 
     </div>
 </template>
