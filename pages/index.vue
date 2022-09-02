@@ -1,11 +1,9 @@
 <template>
-<div>
-  <h1>hej hej välkommen till vårat bibliotek</h1>
-</div>
+  <div>
+    <Registration />
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
+export default {};
 </script>
