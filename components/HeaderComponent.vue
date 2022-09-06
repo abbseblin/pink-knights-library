@@ -1,12 +1,12 @@
 <template>
 <header>
-<nav class="container flex justify-between px-4 py-8 mx-auto bg-white">
+<nav class="titelBanner container flex justify-between px-4 py-8 mx-auto">
   <div>
-    <h3 class="text-2xl font-medium text-blue-500">LOGO</h3>
+    <h3 class="titel text-2xl font-medium">Pensionärsbibblan</h3>
   </div>
-  <div class="hidden space-x-8 lg:flex text-white-500">
+  <div class="links hidden space-x-8 lg:flex">
     <a href="/">Home</a>
-    <a href="/about-us.vue">About Us</a>
+    <a href="/about-us">About Us</a>
     <a href="">Blogs</a>
     <a href="">Our Team</a>
     <a href="">Contact Us</a>
@@ -30,3 +30,16 @@
 </nav>
 </header>
 </template>
+
+<style scoped>
+.titelBanner{
+  background-color: #FFFFFF;
+  border-bottom: 2px solid black;
+}
+.titel {
+  color: #371203;
+}
+.links{
+  color: #371203;
+}
+</style>
