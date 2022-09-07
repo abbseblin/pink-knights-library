@@ -2,6 +2,8 @@
   <div>
     <div class="mainDiv">
 
+
+
       <div class="searchbarDiv">
     <input class="searchbar" type="text" v-model="search" placeholder="Search" />
       </div>
@@ -89,9 +91,11 @@
 </template>
 
 <script>
-export default {};
-</script>
+  import Book from "../components/Book";
+export default {
 
+};
+</script>
 <style>
   body{
     background-color: #FFFFFF;
