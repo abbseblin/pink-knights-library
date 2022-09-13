@@ -2,8 +2,8 @@
     <div>
         <div class="cart">
             <div class="bg-gray-500 p-2 rounded-lg ">
-                <button @click="toggle" class="bg-gray-600 rounded-full w-10 h-10 pl-auto">🛒</button>
-                <div v-if="open">Text!</div>
+                <button @click="toggle" class="bg-gray-600 rounded-full w-10 h-10">🛒</button>
+                <div v-if="open" class="w-64 h-64">Text!</div>
             </div>
         </div>
     </div>
