@@ -1,4 +1,14 @@
 <template>
+<<<<<<< HEAD
+<div>
+  <h1>about us</h1>
+</div>
+</template>
+
+<script>
+
+</script>
+=======
   <div>
 
     <div class="title">
@@ -90,3 +100,4 @@ border-radius: 30px;
 margin-top: 7%;
 }
 </style>
+>>>>>>> c0ade1fc2a5502251d075c7b6c24ee3c0f721823
