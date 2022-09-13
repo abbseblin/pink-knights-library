@@ -1,70 +1,28 @@
 <template>
-  <div class="main">
-
+  <div @click="link" class="page">
     <div class="book">
-      <h3>{{ book.title }}</h3>
-      <p>{{book.body}}</p>
-      <img :src="book.img" alt="">
+      <h1>{{ book.title }}</h1>
+      <h1>{{ book.author }}</h1>
     </div>
-    </div>
-
+  </div>
 </template>
 
 <script>
+import { traverse } from '@babel/types'
+
 export default {
   props: ["book"],
+    methods:{
+    link: function(){
+      window.location.href = "http://localhost:3000/books/" + this.book.id;
+    },
+  },
+
   data() {
         return {
 
         }
     }
-
 };
 
 </script>
-<style>
-.book{
-  order: 0;
-
-  display: flex;
-  flex-direction: column;
-
-
-  transition: transform .2s;
-  margin: 50px;
-  background-color: black;
-  color: white;
-  width: 300px;
-  height: 350px;
-  /* padding-left: 45px;
-  padding-bottom: 10px; */
-  border-radius: 10px;
-
-
-  }
-
-  /* .post:hover p {
-    transform: scaleY(0.66)
-  } */
-
-  .book:hover {
-    transform: scale(1.15);
-    /* transform: scaleX(1.2); */
-    /* transform-origin: bottom; */
-
-  }
-  .flexBook{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .main{
-    display: flex;
-    width:310px;
-    background-color:red ;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-  }
-  </style>
