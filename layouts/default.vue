@@ -1,7 +1,7 @@
 <template>
   <div>
+    <ShoppingCartComponent class="fixed w-full"></ShoppingCartComponent>
     <HeaderComponent></HeaderComponent>
-    <ShoppingCartComponent class="fixed"></ShoppingCartComponent>
     <nuxt/>
   </div>
 </template>
