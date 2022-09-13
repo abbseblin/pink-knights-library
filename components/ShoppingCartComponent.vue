@@ -22,7 +22,7 @@
 export default {
     data() {
     return{
-    open: true
+    open: false
     }
     },
     methods: {
