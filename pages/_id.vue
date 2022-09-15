@@ -5,6 +5,7 @@
     <h1 class="postTitle texth1">{{post.title}}</h1>
     <h1 class="postAuthor texth1">{{post.author}}</h1>
     <h1 class="postGenre texth1"><b>Genre:</b> {{post.genre[0]}}</h1>
+    <h1 class="postLang texth1"><b>Språk: </b>{{post.lang}}</h1>
     <h1 class="postCopies texth1"><b>Antal böcker tillgängliga: </b>{{post.copies}} st</h1>
 
     <button class="shopBtn">Lägg i varukorg</button>
