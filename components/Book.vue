@@ -14,7 +14,8 @@ export default {
   props: ["book"],
     methods:{
     link: function(){
-      window.location.href = "http://localhost:3000/" + this.book.id;
+      //skriv in addressen för själva hemsidan (inte databasen)
+      window.location.href = "http://localhost:52139/" + this.book.id;
     },
   },
 

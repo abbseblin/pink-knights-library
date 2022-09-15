@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="page">
-    <input class="searchbar" type="text" v-model="search" placeholder="search">
+    <input class="searchbar" type="text" v-model="search" placeholder="Sök">
   </div>
 
   <div class="main">
@@ -11,9 +11,8 @@
   </div>
 
     <div class="infoBooks">
-      <div class="title">
-        Läroböcker
-      </div>
+        <h1 class="title">Läroböcker</h1>
+
         <div class="bookList">
 
         <a href="http://localhost:3000/144" class="chosenBooks">
@@ -22,7 +21,7 @@
           <h2>Malin Mattsson Flennegård</h2>
         </a>
 
-        <a href="http://localhost:3000/books/148" class="chosenBooks">
+        <a href="http://localhost:3000/148" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9140673138/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>Spela roll :  samhällskunskap 50 p</h1>
           <h2>Fredrik Harstad</h2>
@@ -65,13 +64,14 @@
 
 <style>
   body{
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   .searchbar{
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    height: 30px;
+    height: 50px;
     width: 450px;
     border: 2px solid #000000;
     border-radius: 5px;
@@ -100,7 +100,7 @@
     border-left: 1px solid black;
     width: 500px;
     height: 30vh;
-    overflow: scroll;
+    overflow:auto;
     margin-left: 32%;
   }
 
@@ -110,10 +110,15 @@
     justify-content: center;
   }
   .title{
+    width: 200px;
     font-size: xx-large;
     font-weight: bold;
+    background-color:burlywood;
     padding: 15px;
-    margin-top: 1%;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 6px;
+    margin-left: 10px;
   }
 
   .bookList{
@@ -124,7 +129,7 @@
   .chosenBooks{
     display: flex;
     flex-direction: column;
-    font-size: 13px;
+    font-size: 15px;
     width: 170px;
     margin: 15px;
     margin-top: 5px;
@@ -139,11 +144,16 @@
     padding: 2px;
   }
 
+  .chosenBooks h2{
+    padding: 2px;
+  }
+
   .chosenBooks img{
     width: 170px;
     height: 210px;
     padding: 15px;
-    background-color: rgba(128, 128, 128, 0.278);
+    background-color: burlywood;
+    border-radius: 5px;
   }
 </style>
 

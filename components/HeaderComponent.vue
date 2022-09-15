@@ -2,14 +2,13 @@
 <header>
 <nav class="titelBanner container flex justify-between px-4 py-8 mx-auto">
   <div>
-    <h3 class="titel text-2xl font-medium">Pensionärsbibblan</h3>
+    <h3 class="titel text-2xl font-medium">Biblioteket.se</h3>
   </div>
   <div class="links hidden space-x-8 lg:flex">
-    <a href="/">Home</a>
-    <a href="/about-us">About Us</a>
-    <a href="">Blogs</a>
-    <a href="">Our Team</a>
-    <a href="">Contact Us</a>
+    <a class="link" href="/">Hem</a>
+    <a class="link" href="/help">Hjälp</a>
+    <a class="link" href="/ourTeam">Vårat team</a>
+    <a href="/shoppingCart" class="link flex justify-center">Varukorg🛒</a>
   </div>
   <div class="flex lg:hidden">
     <svg
@@ -31,15 +30,45 @@
 </header>
 </template>
 
-<style scoped>
+<style>
 .titelBanner{
   background-color: #FFFFFF;
   border-bottom: 2px solid black;
 }
 .titel {
   color: #371203;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: burlywood;
 }
 .links{
   color: #371203;
+  font-size: larger;
+}
+.link{
+  background-color: burlywood;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration-line: underline;
+    transition: transform .5s;
+}
+.link:hover{
+  transform: scale(1.1);
 }
 </style>
+<script>
+export default {
+    data() {
+    return{
+    open: false
+    }
+    },
+    methods: {
+        toggle(){
+            this.open = !this.open;
+            console.log(this.open)
+        }
+    }
+}
+</script>
+
