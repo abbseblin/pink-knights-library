@@ -14,7 +14,7 @@ export default {
   props: ["book"],
     methods:{
     link: function(){
-      window.location.href = "http://localhost:3000/books/" + this.book.id;
+      window.location.href = "http://localhost:3000/" + this.book.id;
     },
   },
 
