@@ -36,17 +36,18 @@
   border-bottom: 2px solid black;
 }
 .titel {
-  color: #371203;
+  color: white;
   padding: 5px;
   border-radius: 5px;
-  background-color: burlywood;
+  background-color: #b11409c9;
 }
 .links{
   color: #371203;
   font-size: larger;
+  font-weight: bold;
 }
 .link{
-  background-color: burlywood;
+  background-color: #fc5c1dcc;
   padding: 5px;
   border-radius: 5px;
   text-decoration-line: underline;
