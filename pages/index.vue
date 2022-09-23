@@ -17,43 +17,43 @@
 
         <div class="bookList">
 
-        <a href="http://localhost:3000/21" class="chosenBooks">
+        <a href="http://localhost:51720/21" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9177423232/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>Sherlock Holmes i skräckens dal</h1>
           <h2>Arthur Conan Doyle</h2>
         </a>
 
-        <a href="http://localhost:3000/148" class="chosenBooks">
+        <a href="http://localhost:51720/148" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9163866765/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>Den lilla kaninen</h1>
           <h2>Ariane</h2>
         </a>
 
-        <a href="http://localhost:3000/149" class="chosenBooks">
+        <a href="http://localhost:51720/149" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9113040235/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>En dåres försvarstal</h1>
           <h2>August Strindberg</h2>
         </a>
 
-        <a href="http://localhost:3000/146" class="chosenBooks">
+        <a href="http://localhost:51720/146" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9177010388/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>Bröderna Karamazov. 2</h1>
           <h2>Fjodor Dostojevskij</h2>
         </a>
 
-        <a href="http://localhost:3000/151" class="chosenBooks">
+        <a href="http://localhost:51720/151" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9177810139/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>En julsaga</h1>
           <h2>Charles Dickens</h2>
         </a>
 
-        <a href="http://localhost:3000/152" class="chosenBooks">
+        <a href="http://localhost:51720/152" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9172473592/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>Antigone</h1>
           <h2>Sofokles</h2>
         </a>
 
-        <a href="http://localhost:3000/153" class="chosenBooks">
+        <a href="http://localhost:51720/153" class="chosenBooks">
           <img src="https://secure.syndetics.com/index.aspx?isbn=9177425359/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=" alt="">
           <h1>Norrtullsligan</h1>
           <h2>Elin Wägner</h2>

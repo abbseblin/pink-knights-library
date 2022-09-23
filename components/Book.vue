@@ -15,7 +15,7 @@ export default {
     methods:{
     link: function(){
       //skriv in addressen för själva hemsidan (inte databasen)
-      window.location.href = "http://localhost:52139/" + this.book.id;
+      window.location.href = "http://localhost:51720/" + this.book.id;
     },
   },
 
